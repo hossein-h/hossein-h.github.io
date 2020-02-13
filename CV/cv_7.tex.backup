@@ -1,0 +1,252 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%-------------------------------
+%	My added packages
+%-------------------------------
+%\usepackage{hyperref}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Hossein} % Your first name
+\familyname{Hajimirsadeghi} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{School of Computing Science\\
+Simon Fraser University\\
+8888 University Drive\\}{Burnaby, BC, Canada V5A 1S6}
+\mobile{+1 (778) 707 0704}
+\email{hosseinh@sfu.ca}
+\homepage{http://www.cs.sfu.ca/~hosseinh/personal/}{cs.sfu.ca/$\sim$hosseinh/personal} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%\extrainfo{additional information}
+
+%\photo[70pt][0.4pt]{pictures/hossein} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2011--Present}{PhD of Computing Science}{Simon Fraser University}{Canada}{\textit{GPA -- 4.28/4.33}}{
+\begin{itemize}
+\item Supervisor: \href{http://www.cs.sfu.ca/~mori/}{Dr. Greg Mori}
+\item Courses: Machine Learning (A+), Directed Reading on Probabilistic Graphical Models (A+ at SFU, 96/100 at Coursera), Directed Reading on Boosting and Random Forests (A+), Design and Analysis of Algorithms (A+), Multimedia Systems (A+), Statistical Machine Translation (A).
+\item Thesis Topic: Multiple Instance Learning for Visual Content Analysis.
+\newline{}
+\end{itemize}
+}  % Arguments not required can be left empty
+
+\cventry{2008--2010}{MSc of Electrical and Computer Engineering -- Control}{University of Tehran}{Iran}{\textit{GPA -- 18.92/20}}{
+\begin{itemize}
+\item Thesis Title: Conceptual Imitation Learning Based on Perceptual and Functional Characteristics of Action, \textit{Grade: 20/20}
+\item Supervisors: Dr. Majid Nili Ahmadabadi, Dr. Babak Nadjar Araabi, Dr. Hadi Moradi (consulting professor)
+\newline{}
+\end{itemize}
+}
+
+\cventry{2004--2008}{BSc of Electrical and Computer Engineering -- Control}{University of Tehran}{Iran}{\textit{GPA -- 17.56/20}}{
+\begin{itemize}
+\item Thesis Title: Nash Equilibrium Search for Nonlinear Games, Using Evolutionary Algorithms, \textit{Grade: 20/20}
+\item Supervisor: Dr. Ashkan Rahimi-Kian
+\end{itemize}
+}
+
+%---------------------
+%	Research Interests
+%---------------------
+\section{Research Interests}
+\subsection{Major:}
+\cvitem{}{Machine Learning}
+\cvitem{}{Computer Vision}
+\cvitem{}{Data Analysis}
+\subsection{Minor:}
+\cvitem{}{Computational Perception \& Action, Multi-Agent Systems, Ambient Intelligence, Game Theory, Evolutionary Algorithms, and generally, applications of Computational Intelligence in Information Sciences, Cognitive Neuroscience, and Robotics.}
+
+
+%-------------------
+%	Publications
+%-------------------
+\section{Publications}
+\cvitem{2013}{\textbf{H. Hajimirsadeghi}, J. Li, G. Mori, M. Zaki, and T. Sayed, ``Multiple Instance Learning by Discriminative Training of Markov Networks,'' Proc. 29th Conference on Uncertainty in Artificial Intelligence (UAI), \emph{in-press}.}
+
+\cvitem{2013}{\textbf{H. Hajimirsadeghi}, M. Nili Ahmadabadi, and B. Nadjar Araabi, ``Conceptual imitation Learning based on perceptual and functional characteristics of action,'' IEEE Transactions on Autonomous Mental Development, \emph{in-press}.}
+
+\cvitem{2013}{S. Oh, S. McCloskey, I. Kim, A. Vahdat, K. Cannons, \textbf{H. Hajimirsadeghi}, G. Mori, A. G. A. Perera, M. Pandey, and J. J. Corso, ``Multimedia Event Detection and Recounting with Multimodal Feature Fusion and Temporal Concept Localization,'' Machine Vision and Applications, \emph{in-press}.}
+
+\cvitem{2012}{\textbf{H. Hajimirsadeghi} and G. Mori, ``Multiple Instance Real Boosting with Aggregation Functions,'' Proc. 21st IAPR International Conference on Pattern Recognition (ICPR), Tsukuba Science City, Japan, pp. 2706--2710, Nov. 2012.}
+
+%\cvitem{2012}{A. Perera et al., ``TRECVID 2012 GENIE: Multimedia Event Detection and Recounting.''}
+
+\cvitem{2012}{\textbf{H. Hajimirsadeghi}, M. Nili Ahmadabadi, B. Nadjar Araabi, H. Moradi, ``Conceptual imitation learning in a human-robot interaction paradigm,'' ACM Transactions on Intelligent Systems and Technology, vol. 3, no. 2, 2012.}
+
+\cvitem{2012}{A. Nikoofard, \textbf{H. Hajimirsadeghi}, A. Rahimi-Kian, C. Lucas, ``Multi-objective Invasive Weed Optimization: Application to Analysis of Pareto Improvement Models in Electricity Markets,'' Applied Soft Computing, vol. 12, no. 1, pp. 100--112, 2012.}
+
+\cvitem{2011}{\textbf{H. Hajimirsadeghi}, ``Conceptual Imitation Learning based on functional effects of action,'' Proc. EUROCON 2011, Lisbon, Portugal, April 2011. (Selected as one of the five best papers in IEEE R8 Student Paper Contest 2011)}
+
+\cvitem{2010}{\textbf{H. Hajimirsadeghi}, M. Nili Ahmadabadi, M. Ajallooeian, B. Nadjar Araabi, H. Moradi, ``Conceptual Imitation Learning: Application to Human-Robot Interaction,'' Journal of Machine Learning Research: Workshop and Conference Proceedings, vol. 13, pp. 341--356, ACML2010, Tokyo, Japan, Nov. 2010.}
+
+\cvitem{2009}{M. Ramezani Ghalenoei, \textbf{H. Hajimirsadeghi}, C. Lucas, ``Discrete invasive optimization algorithm and its application to cooperative multiple task assignment of UAVs,'' Proc. 48th IEEE Conference on Decision and Control, Shanghai, China, pp. 1665--1670, Dec. 2009.}
+
+\cvitem{2009}{\textbf{H. Hajimirsadeghi}, A. Ghazanfari, A. Rahimi-Kian, C. Lucas. ``Cooperative coevolutionary invasive weed optimization and its application to Nash equilibrium search,'' Proc. World Congress on Nature and Biologically Inspired Computing, Coimbatore, India, pp. 1532--1535, Dec. 2009.}
+
+\cvitem{2009}{\textbf{H. Hajimirsadeghi}, C. Lucas, ``A hybrid IWO/PSO algorithm for fast and global optimization,'' Proc. EUROCON 2009, St. Petersburg, RUSSIA, pp. 1964--1971, May 2009. (Selected as one of the five best papers in IEEE R8 student paper contest 2009)}
+
+\cvitem{2008}{S. Sodagari, \textbf{H. Hajimirsadeghi}, A. Nasiri Avanaki. ``Automatic artifact identification in image communication using watermarking and classification algorithms,'' Proc. International Symposium on Telecommunications (IST08), Tehran, Iran, pp. 725--730, Aug. 2008.}
+
+\cvitem{2008}{\textbf{H. Hajimirsadeghi}, M. Nabaee, B. Nadjar Araabi, ``Ant colony optimization with a genetic restart approach toward global optimization,'' Advances in Computer Science and Engineering, Springer Berlin Heidelberg, vol. 6, pp. 9--16, 2008.}
+
+%\subsection{Pending:}
+
+
+%---------------------
+%	Awards
+%---------------------
+\section{Honors and Awards}
+\cvitem{2013,2014}{Simon Fraser University Graduate Fellowship.}
+
+\cvitem{2012}{Ebco/Eppich Graduate Scholarships in Intelligent Systems.}
+
+\cvitem{2011}{Selected as one of the best authors in \href{http://www.ieeer8.org/student-activities/news-student-activities/older-news-items/student-paper-contest-2011-results/}{\underline{\textit{IEEE R8 Student Paper Contest 2011}}}.}
+
+\cvitem{2010}{3rd place among all Masters students of Electrical Engineering in the 70th graduation anniversary of University of Tehran.}
+
+\cvitem{2010}{1st and 2nd place in the local student paper contest  among ECE graduate students at University of Tehran.}
+
+\cvitem{2009}{2nd place in the local student paper contest among ECE graduate students at University of Tehran.}
+
+\cvitem{2009}{Selected as one of the best authors in \href{http://www.ieeer8.org/student-activities/awards-and-contests/student-paper-contest/spc-history/spc-individual-history/student-paper-contest-2009/}{\underline{\textit{IEEE R8 Student Paper Contest 2009}}}.}
+
+\cvitem{2008}{3rd place in the local student paper contest among ECE undergraduate and graduate students at University of Tehran.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Computer skills}
+
+\cvitem{Programming Languages}{\textsc{python}, \textsc{matlab}, \textsc{java}, \textsc{C++}, \textsc{perl}}
+\cvitem{Hardware Design}{\textsc{ModelSim}, \textsc{Quartus}, \textsc{verilog}}
+
+%----------------------------------------------------------------------------------------
+%	Teaching Experience
+%----------------------------------------------------------------------------------------
+\section{Teaching Experience}
+\cventry{Spring 2013}{Data Structures and Programming}{Teaching Assistant}{Simon Fraser University}{}{Instructor: Dr.~Greg Mori}
+
+\cventry{Spring 2013}{Introduction to Computing Science}{Teaching Assistant}{Simon Fraser University}{}{Instructor: Dr. Diana Cukierman}
+
+\cventry{Spring 2012}{Data Structures and Programming}{Teaching Assistant}{Simon Fraser University}{}{Instructor: Dr. Greg Mori}
+
+\cventry{Fall 2009 and Summer 2010}{Introduction to \textsc{matlab}}{Instructor}{IEEE Student Branch at University of Tehran}{}{}
+
+\cventry{Fall 2009}{Optimal Control}{Teaching Assistant}{University of Tehran}{}{Instructor: Dr. Ashkan Rahimi-Kian}
+
+\cventry{Fall 2007}{Signals and Systems}{Teaching Assistant}{University of Tehran}{}{Instructor: Dr. Alireza Nasiri Avaanaki}
+
+\cventry{Fall 2007}{Electronics II}{Teaching Assistant}{University of Tehran}{}{Instructor: Dr. Ali Afzali-Kusha}
+
+\cventry{Fall 2006}{Engineering Mathematics}{Teaching Assistant}{University of Tehran}{}{Instructor: Dr. Jalil-agha Rashed-Mohassel}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{2012-2013}{Externship}{\textsc{Simon Fraser Univeristy}}{Canada}{}{TRECVID Multimedia Event Detection.}
+
+\cventry{2007--2008}{Internship}{\textsc{Robotics, Artificial Intelligence and Information Science Institute (RAISE)}}{University of Tehran}{Iran}{Household electricity consumers behavior modelling and classification}
+
+\cventry{2005--2006}{Research Assistant}{\textsc{E-health Section of Iran Telecommunication Research Center}}{Iran}{}{Intensity modulated radio therapy (IMRT) optimization.}
+
+
+%----------------------------------------------------------------------------------------
+%	Service
+%----------------------------------------------------------------------------------------
+\section{Service}
+\subsection{Recent Reviewing:}
+\cvitem{2013}{International Conference on Computer Vision.}
+\cvitem{2013}{British Machine Vision Conference.}
+\cvitem{2012}{Asian Conference on Computer Vision.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Persian}{Mothertongue}{}
+\cvitemwithcomment{English}{Fluent}{}
+%\cvitemwithcomment{Arabic}{Basic}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\iffalse
+\section{Hobbies}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Watching Movies}{Persian Calligraphy}
+\cvlistdoubleitem{Reading News}{Chatting}
+\fi
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
